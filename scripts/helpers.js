@@ -2,6 +2,7 @@
 // Invert the R, G and B components
 // Convert each component back to HEX
 // Pad each component with zeros and output.
+
 export const invertColor = (hex) => {
 	// convert 3-digit hex to 6-digits.
 	if (hex.length === 3) {
